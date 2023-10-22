@@ -16,5 +16,4 @@ function averageWord(param) {
     return total;    
 }
 
-let sumMixedElements = averageWord(mixedElements);
-console.log(sumMixedElements);
+console.log(averageWord(mixedElements));

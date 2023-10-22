@@ -19,7 +19,7 @@ const nameFinder = [
     for (let i = 0; i < param.length; i++) {
         if (param[i] === a) {
             true;
-            var position = param.indexOf(a);
+            let position = param.indexOf(a);
             return true + ' y su posicion es ' + position;
         }
     }

@@ -27,3 +27,5 @@ const counterWords = [
     return count;
   }
   console.log(repeatCounter(counterWords));
+
+  

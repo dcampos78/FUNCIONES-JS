@@ -19,7 +19,7 @@ const duplicates = [
 
 function removeDuplicates(param) {
     for (i = 0; i < param.length; i++) {
-        var only = new Set(param);
+        let only = new Set(param);
     } 
  return only;
 }
